@@ -14,7 +14,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
 import appStore from "./utils/appStore.jsx";
 import AppointmentPage from "./components/Features/Appointment.jsx";
-
+import CartPage from "./components/Features/CartPage.jsx";
 function App() {
   return (
     <Provider store={appStore}>
@@ -33,6 +33,7 @@ function App() {
           <Route path="/medical-passport" element={<MedicalPassportPage />} />
           <Route path="/chat" element={<Chat />} />
           <Route path="/appointment" element={<AppointmentPage />}/>
+          <Route path="/cart" element={<CartPage />} />
         </Routes>
       </BrowserRouter>
     </Provider>
@@ -40,3 +41,8 @@ function App() {
 }
 
 export default App;
+
+
+
+
+
