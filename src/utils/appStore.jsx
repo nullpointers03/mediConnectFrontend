@@ -1,11 +1,13 @@
 import { configureStore } from "@reduxjs/toolkit";
 import userReducer from "../userSlice.jsx";
-import appointmentReducer from "../appointmentSlice"; // Make sure the path is correct
+import consultationReducer from "./consultationSlice.jsx";
+import labBookingReducer from "./labBookingSlice.jsx";
 
 const store = configureStore({
   reducer: {
-    user: userReducer,
-    appointment: appointmentReducer, // Use the default export reducer
+    user: userReducer, 
+    consultation: consultationReducer,
+    labBooking: labBookingReducer,
   },
 });
 

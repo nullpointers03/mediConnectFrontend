@@ -10,42 +10,42 @@ const SecondSection = () => {
       title: "Live Consultation",
       description: "Book consultation with doctors instantly",
       icon: "🩺",
-      onClick: () =>  alert("Lab test clicked"),
+      onClick: () => navigate("/live-consultation"),
     },
     {
       id: 2,
       title: "Lab Test",
       description: "Home sample collection and analysis",
       icon: "🧪",
-      onClick: () => alert("Lab test clicked"),
+      onClick: () => navigate("/lab-test"),
     },
     {
       id: 3,
       title: "Medicine Delivery",
       description: "Get medicines at your doorstep",
       icon: "💊",
-      onClick: () => alert("Medicine delivery clicked"),
+      onClick: () => navigate("/medicine-delivery"),
     },
     {
       id: 4,
       title: "Multilingual Bot",
       description: "Chat in all languages",
       icon: "🤖",
-      onClick: () => alert("Multilingual bot clicked"),
+      onClick: () => navigate("/multilingual-bot"),
     },
     {
       id: 5,
       title: "3D Disease Models",
       description: "View patient disease in 3D",
       icon: "🧬",
-      onClick: () => alert("3D disease model clicked"),
+      onClick: () => navigate("/disease-models"),
     },
     {
       id: 6,
       title: "Medical Passport",
       description: "Access patient's health history",
       icon: "📋",
-      onClick: () => alert("Medical records clicked"),
+      onClick: () => navigate("/medical-passport"),
     },
   ];
 
@@ -78,6 +78,7 @@ const SecondSection = () => {
         ))}
       </div>
 
+      {/* Doctors section */}
       <section className="mb-16">
         <h3 className="text-2xl font-bold mb-8 text-center text-gray-800">
           Meet Our Experienced Doctors (20+ years)
@@ -97,23 +98,16 @@ const SecondSection = () => {
         </div>
       </section>
 
+      {/* Why Choose Section */}
       <section className="bg-blue-50 rounded-xl p-8">
         <h3 className="text-3xl font-bold mb-8 text-center text-blue-900">
           Why Choose Our Platform
         </h3>
         <ol className="space-y-6 max-w-xl mx-auto text-gray-700 text-lg">
-          <li>
-            <span className="font-bold text-blue-700">01</span> Register & Consult <br /> Sign up and book an online OP consultation for your health concern
-          </li>
-          <li>
-            <span className="font-bold text-blue-700">02</span> Connect with Doctor <br /> Available doctors nearby receive your request and start video consultation
-          </li>
-          <li>
-            <span className="font-bold text-blue-700">03</span> Get Tests & Analysis <br /> Home testing service collects samples, AI analyzes results with doctor
-          </li>
-          <li>
-            <span className="font-bold text-blue-700">04</span> Receive Treatment <br /> Get prescribed medicines delivered and AI-powered health guidance
-          </li>
+          <li><span className="font-bold text-blue-700">01</span> Register & Consult <br /> Sign up and book an online OP consultation for your health concern</li>
+          <li><span className="font-bold text-blue-700">02</span> Connect with Doctor <br /> Available doctors nearby receive your request and start video consultation</li>
+          <li><span className="font-bold text-blue-700">03</span> Get Tests & Analysis <br /> Home testing service collects samples, AI analyzes results with doctor</li>
+          <li><span className="font-bold text-blue-700">04</span> Receive Treatment <br /> Get prescribed medicines delivered and AI-powered health guidance</li>
         </ol>
       </section>
     </div>
