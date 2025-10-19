@@ -6,7 +6,7 @@ const doctors = [
     name: "Dr. Arjun Mehta",
     role: "Cardiologist",
     reviews: 238,
-    experience: "14+ years experience",
+    experience: "15+ years experience",
     img: "https://plus.unsplash.com/premium_photo-1658506671316-0b293df7c72b?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZG9jdG9yfGVufDB8fDB8fHww&fm=jpg&q=60&w=3000"
   },
   {
@@ -19,7 +19,7 @@ const doctors = [
   {
     name: "Dr. Rohan Iyer",
     role: "Pediatrician",
-    reviews: 305,
+    reviews: 405,
     experience: "11+ years experience",
     img: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGRvY3RvcnxlbnwwfHwwfHx8MA%3D%3D&fm=jpg&q=60&w=3000"
   }
