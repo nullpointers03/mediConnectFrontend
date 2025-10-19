@@ -5,11 +5,11 @@ import { useNavigate } from "react-router-dom";
 
 const LiveConsultationPage = () => {
   const [formData, setFormData] = useState({
-    name: "fb",
-    age: "25",
-    gender: "male",
-    symptoms: "fever",
-    disease: "none"
+    name: "",
+    age: "",
+    gender: "",
+    symptoms: "",
+    disease: ""
   });
 
   console.log(formData)
